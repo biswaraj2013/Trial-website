@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Seymour+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 
 * {
   margin: 0;
@@ -64,10 +65,10 @@
 }
 
 .text-large{
-  font-size: 3rem;
-  font-family: "Rubik Bubbles", cursive;
-  font-family: "Seymour One", sans-serif;
-
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: white;
 }
 .icon-cont{
   padding: 2rem 0;
@@ -94,3 +95,7 @@
   color: white;
   cursor: pointer;
 }
+.pt-10rem{
+  padding-top: 10rem;
+}
+
