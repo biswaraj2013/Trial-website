@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background: black;
+}
+
+.navbar {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: black;
+}
+.nav-item a {
+  font-weight: 800;
+}
+.navbar-brand {
+  font-weight: 800;
+}
+.con1-text {
+  /* text-align: left; */
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 6rem;
+  color: white;
+}
+.con2-text {
+  font-family: "Rubik Bubbles", cursive;
+  font-family: "Seymour One", sans-serif;
+  font-size: 1.5rem;
+}
+#con2-btn {
+  font-size: 0.9rem;
+  border-radius: 2rem;
+}
+.con3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: black;
+}
+.con3 img {
+  width: 70rem;
+  height: 60rem;
+}
+.con3 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.con4 p{
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 0px 70px;
+}
+#con4-btn{
+  padding: 0.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.text-large{
+  font-size: 3rem;
+  font-family: "Rubik Bubbles", cursive;
+  font-family: "Seymour One", sans-serif;
+
+}
+.icon-cont{
+  padding: 2rem 0;
+  padding-top: 10rem;
+}
+.contact-icons{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bi-facebook:hover{
+  color: white;
+  cursor: pointer;
+}
+.bi-instagram:hover{
+  color: white;
+  cursor: pointer;
+}
+.bi-linkedin:hover{
+  color: white;
+  cursor: pointer;
+}
+.bi-whatsapp:hover{
+  color: white;
+  cursor: pointer;
+}
